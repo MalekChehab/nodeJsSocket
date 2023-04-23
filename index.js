@@ -6,7 +6,7 @@ const orders = [
   {recipient: 'Vladimir Putin', address: '456 B St', status: 'delivered' },
   {recipient: 'Donald Trump', address: '789 C St', status: 'pending' },
   {recipient: 'Boris Johnson', address: '321 D St', status: 'pending' },
-  {recipient: 'Justin Trudo', address: '654 E St', status: 'pending' },
+  {recipient: 'Justin Trudo', address: '654 E St', status: 'delivered' },
 ];
 
 io.on('connection', function (client) {
